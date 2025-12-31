@@ -22,7 +22,6 @@ setuptools.setup(
         },
     install_requires=[
         'apache-beam[gcp]==2.65.0',
-        # Puedes agregar otras dependencias aquí si las necesitas
     ],
     python_requires='>=3.8',
     include_package_data=True,
