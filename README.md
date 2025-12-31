@@ -1,5 +1,5 @@
-# data-core-pipelines-beam
-A TDD core project to develop Apache Beam Pipelines with Python SDK
+# pypipe - Data Pipeline Framework
+A Data Pipeline Framework using Apache Beam Pipelines, adding PTransforms and utility functions.
 
 ## Deploy by environment
 ### LOCAL ENV
