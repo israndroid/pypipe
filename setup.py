@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='israndroid',
-    version='0.0.dev3',
+    version='0.0.4',
     description='A Data Pipeline Framework using Apache Beam Pipelines, adding PTransforms and utility functions.',
     author='israelmartinez.data.engineer@gmail.com',
     packages=setuptools.find_packages(
