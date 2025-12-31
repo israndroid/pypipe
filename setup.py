@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name='israndroid',
+    name='pypipex',
     version='0.0.4',
     description='A Data Pipeline Framework using Apache Beam Pipelines, adding PTransforms and utility functions.',
     author='israelmartinez.data.engineer@gmail.com',
