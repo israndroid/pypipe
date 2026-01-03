@@ -7,19 +7,10 @@ setuptools.setup(
     author='israelmartinez.data.engineer@gmail.com',
     packages=setuptools.find_packages(
         include=[
-            'app'
-            , 'app.*'
-            , 'src'
+            'src'
             , 'src.*'
-            , 'tests'
-            , 'tests.*'
             ]
     ),
-    entry_points={
-        'console_scripts': [
-            'wordcount_beam=src.modules.wordcount_minimal:main'
-            ] # so this directly refers to a function available in __init__.py
-        },
     install_requires=[
         'apache-beam[gcp]==2.65.0',
     ],

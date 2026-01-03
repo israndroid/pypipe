@@ -1,4 +1,4 @@
-# pypipe - Data Pipeline Framework
+# pypipex - Data Pipeline Framework
 A Data Pipeline Framework using Apache Beam Pipelines, adding PTransforms and utility functions.
 
 ## Deploy by environment
