@@ -32,7 +32,7 @@ from apache_beam.testing.test_utils import create_file
 from apache_beam.testing.test_utils import read_files_from_pattern
 import sys
 import os
-from src.modules import wordcount_minimal
+from src.pypipex.modules import wordcount_minimal
 
 
 @pytest.mark.examples_postcommit
