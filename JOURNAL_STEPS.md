@@ -1,4 +1,4 @@
-# data-core-pipelines-beam
+# pypipex
 A TDD core project to develop Apache Beam with Python SDK
 
 # Current Steps to create this repo
@@ -71,17 +71,20 @@ A TDD core project to develop Apache Beam with Python SDK
     5.2.2 or equivalent:
     ```
     #!/bin/bash
-    python -m src.modules.wordcount_minimal --runner DirectRunner --input ./tests/input/ch1_les_miserables.txt --output ./tests/output/word_counts_ch1_les_miserables.txt
+    python3 -m src.pypipex.modules.wordcount_minimal \
+    --runner DirectRunner \
+    --input ./src/pypipex/tests/input/ch1_les_miserables.txt \
+    --output ./src/pypipex/tests/output/word_counts_ch1_les_miserables_test_refactored_project.txt
     ```
 
-    5.2.3 or equivalent when install pip install data-core-pipelines-beam: Direct Runnner
+    5.2.3 or equivalent when install pip install pypipex: Direct Runnner
     ```
     python -m src.modules.wordcount_minimal --runner DirectRunner \
     --input "gs://data-core-project-landing-zone/data_lake_core_web_scrapper/raw_cl_house_prices/2023-03-08 Precios Casas RM.csv" \
     --output "gs://data-core-project-landing-zone/data_lake_core_web_scrapper/raw_cl_house_prices_word_counts/2023-03-08-precios-casas-rm.txt"
     ```
 
-    5.2.3 or equivalent when install pip install data-core-pipelines-beam DataFlowRunner: 
+    5.2.3 or equivalent when install pip install pypipex DataFlowRunner: 
     ```
     # WIP testing command to deploy job at DataflowRunner
     python -m src.modules.wordcount_minimal \

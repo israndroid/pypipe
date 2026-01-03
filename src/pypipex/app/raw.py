@@ -5,8 +5,8 @@ import time
 import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions
 from apache_beam.options.pipeline_options import SetupOptions
-from src.modules.raw_transforms import SplitRawLineToDict
-from src.modules.io_transforms import IOReadFromText, IOWriteToText
+from src.pypipex.modules.raw_transforms import SplitRawLineToDict
+from src.pypipex.modules.io_transforms import IOReadFromText, IOWriteToText
 from config import global_config as GC
 
 def setup_options(argv=None, save_main_session=True):
